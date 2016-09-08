@@ -6,11 +6,11 @@ import re
 import os
 import picker
 
-if os.geteuid() != 0:
-    sys.exit("You need to have root privileges to run this script.\nPlease try again, this time using 'sudo'.")
+#if os.geteuid() != 0:
+#    sys.exit("You need to have root privileges to run this script.\nPlease try again, this time using 'sudo'.")
 
 parser = argparse.ArgumentParser(description="Change NZXT Hue+ LEDs")
-parser.add_argument("-p", "--port", default="/dev/ttyACM0", type=str, help="The port, defaults to /dev/ttyACM0")
+parser.add_argument("-p", "--port", default="COM4", type=str, help="The port, defaults to COM4")
 parser.add_argument("-c", "--channel", type=int, default=1, help="The channel, defaults to 1")
 parser.add_argument("-g", "--gui", type=int, default=0, help="How many colors of GUI picker")
 subparsers = parser.add_subparsers(help="The type of color (fixed, breathing)", dest='command')
