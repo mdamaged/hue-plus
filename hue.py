@@ -6,7 +6,7 @@ import re
 import os
 import picker
 
-#if os.geteuid() != 0:
+# if os.geteuid() != 0:
 #    sys.exit("You need to have root privileges to run this script.\nPlease try again, this time using 'sudo'.")
 
 parser = argparse.ArgumentParser(description="Change NZXT Hue+ LEDs")
