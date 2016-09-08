@@ -11,6 +11,11 @@ usage: hue [-h] [-p PORT] [-c CHANNEL] [-g GUI]
            ...
 
 Change NZXT Hue+ LEDs
+Color myst be in hex, i.e. 040012
+Examples:
+
+hue.py -c2 fixed 040012
+hue.py -c1 marquee 0 -b 3 6000FF 040012
 
 positional arguments:
   {fixed,breathing,fading,marquee,cover_marquee,pulse,spectrum,alternating,candlelight,power}
