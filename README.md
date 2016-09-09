@@ -1,6 +1,7 @@
 # hue-plus
 A driver in Python for the NZXT Hue+
 ## Install
+Requires python for windows: https://www.python.org/downloads/release/python-2712/
 To install it system wide, simply run install.sh as root `sudo ./install.sh`
 Now it will be available as `hue` and `hue-picker`
 **To use the GUI you must have zenity installed**
