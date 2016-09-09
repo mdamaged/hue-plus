@@ -1,5 +1,5 @@
 # hue-plus
-A Linux driver in Python for the NZXT Hue+
+A driver in Python for the NZXT Hue+
 ## Install
 To install it system wide, simply run install.sh as root `sudo ./install.sh`
 Now it will be available as `hue` and `hue-picker`
